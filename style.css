@@ -1,0 +1,47 @@
+.walrus-showing {
+    display: none;
+  }
+  
+#pp {
+    height: 200%;
+    width: 20%;
+    cursor: pointer;
+    color: #000;
+    }
+    
+    #pp:hover {
+    text-decoration: none;
+    }
+/**/
+.walrus-hidden1 {
+    display: none;
+  }
+
+  #pp1 {
+    height: 200%;
+    width: 20%;
+    cursor: pointer;
+    color: #000;
+    }
+    
+    #pp1:hover {
+    text-decoration:none;
+    }
+
+/**/
+.walrus-showing2 {
+  display: none;
+}
+
+#pp2{
+  height: 200%;
+  width: 20%;
+  cursor: pointer;
+  color: #000;
+  }
+  
+  #pp2:hover {
+  text-decoration: none;
+  }
+
+

@@ -1,0 +1,204 @@
+
+.showcase{
+    background-image: url('./img/backgrounds/h_img.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:17%; 
+
+  }
+  .showcase h1{
+    padding: 2px;
+    margin: 5px;
+   
+    
+  }
+  .showcase p{
+    padding: 2px;
+
+    font-size: larger;
+    
+  }
+  #logo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 200px;
+    height: 200px;;
+  }
+  .container2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
+  }
+  .services{
+    text-align: center;
+    background-image: url("./img/backgrounds/s_image.jpg");
+    color: white;
+
+    background-size: cover;
+ 
+
+    font-size: 18px;
+  }
+  h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p{
+    font-family: 'Abril Fatface',;
+    font-size: larger;
+  }
+
+  .img {
+    display: block;
+ 
+    height: 100%;
+    width: 100%;
+  }
+  /*toggle*/
+  .walrus-showing {
+    display: none;
+  }
+  #hi{
+    cursor: pointer;
+   
+    }
+    
+    #hi:hover {
+    text-decoration: underline;
+    }
+  /*end*/
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+  }
+  
+  .work2Logo:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    border-radius:2px solid white;
+    color: black;
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  
+ 
+  
+  .row5 {
+    width: 100%;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .row6 {
+    width: 100%;
+    height: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+  
+
+  
+/*contact*/
+
+.contacts {
+  background-image: url("./img/backgrounds/c_image.jpg");
+  background-size: cover;
+}
+
+.contacts h1 {
+  position: relative;
+  top: 30px;
+}
+.text{
+  margin-bottom: 20px;
+}
+.form-control::-webkit-input-placeholder { 
+  color: white; 
+}
+
+
+.form-control{
+  background-color: #66000000;
+  color: white;
+}
+.input{
+  margin-top: 30px;
+}
+
+.name{
+  margin-right: 5px;
+}
+input.error {
+  border: 1px dashed red;
+  font-weight: 300;
+  color: red;
+}
+.email{
+  margin-right: 5px;
+}
+
+#text1{
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 30px; 
+  
+   
+}
+
+
+/*end*/
+  footer{
+    height: 150px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+  }
+  footer h1{
+    font-size: medium;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .row6 {
+      height: 100px;
+      width: 100px;
+    }
+  }
